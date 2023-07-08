@@ -2,7 +2,7 @@
 "Film Sitesi Yapımı - Html Css Web Site Yapımı (Full Responsive)"
 
 ## Proje Hakkında
-"bu site html css ve yeryer ihtiyaç dahilinde javacsript öğeleri kullanılmış (Full Responsive) web birsitesidir"
+"bu site html css ve yeryer ihtiyaç dahilinde javacsript öğeleri kullanılmış (Full Responsive) bir web sitesidir
 
 ![ Film Sitesi Yapımı - Html Css Web Site Yapımı (Full Responsive)GIF'i](./image/film.sitesi.gif)
 
