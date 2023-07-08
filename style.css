@@ -102,6 +102,7 @@ body {
   cursor: pointer;
   position: absolute;
   right: 1px;
+  transition: .5s ease-in all;
 }
 /*! navbar end */
 
@@ -213,10 +214,13 @@ body {
   display: flex;
   align-items: center;
   column-gap: 30px;
+  transform: translateX(0);
+  transition: 1s all ease-in-out;
 }
 
 .movie-list-wrapper{
   overflow: hidden;
+  position: relative;
 }
 
 
@@ -269,6 +273,64 @@ transition: 0.5s all ease;
 
 .movie-item-buttons i:hover{
  opacity: 1;
+
   }
 
+
+  .arrow{
+  width: 100px;  
+  display: flex;
+  font-size: 120px;
+  position: absolute;
+  right: 0;
+  top: 100px;
+  opacity:.5;
+  transition: .5s ease;
+  cursor: pointer;
+  }
+
+  .arrow:hover{
+    opacity:1;
+
+    }
+
 /*! movie list end*/
+
+/*! dark mode start*/
+.container.active{
+  background-color: white;
+}
+
+.navbar.active{
+  background-color: white;
+  color: #000;
+}
+
+.sidebar.active{
+background-color: white;
+color: #000;
+}
+
+.movie-list-title.active{
+  color: #000;
+}
+
+.sidebar i.active{
+  color: #000;
+
+  }
+
+.toggle.active{
+  background-color: #000;
+}
+
+.toggle-ball.active{
+  background-color:white;
+  transform: translateX(-20px);
+}
+
+.movie-list-filter select{
+  background-color: white;
+  color: #000;
+}
+/*! dark mode end*/
